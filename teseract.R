@@ -26,3 +26,8 @@ for(i in 2:116)
   if((filtered_name$ystart[i+1] - filtered_name$ystart[i]) > 60)
     arr = c(arr,i)
 }
+
+
+#input <- image_read("UCD_Lehmann_0036.jpg")
+#input<- image_crop(input,geometry_point(350,1500))
+#input<- image_chop(input,geometry_area(10000,10000,1450,1300))
