@@ -29,3 +29,4 @@ Some images are tilted. It will make Tesseract harder to extract texts. We use b
 * Our approach only applies to certain picture with specific pattern.
 * We detect the boundary by key words. It doesn't work if there are no key words in the image.
 * Cropping images is extremely limited with our approach. It has to find those key words in order to function properly.
+* We don't have a statistical measurement telling how accurate our results are.
