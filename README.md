@@ -18,5 +18,7 @@ Tesseract doesn't extract text line by line. It detects it words by words. So we
 ### Seperating prices from texts
 We isolated prices of wines by x coordinates of a word called "bottle" or "case". We found a pattern that prices are always under the word "bottle" or "case". So if we can find the coordinates of those two words, we then can find where prices are.
 
-### Rotating image that is tilted automatically
-Some images are tilted. It will make Tesseract harder to extract texts. We use basic geometry 
+### Rotating tilted images automatically
+Some images are tilted. It will make Tesseract harder to extract texts. We use basic geometry to solve this problem. We find a pattern that words "case" and "bottle" are always in the same line. With this in mind, we detect the coordinates of those two words and check if their y coordinates are close. If not, we will use geometric method to calculate the angle and rotate the image.
+
+### 
