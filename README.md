@@ -8,6 +8,9 @@ Xingwei Ji			xwji@ucdavis.edu		Computer Science
 
 Sukhmandeep Kaur	sdkkaur@ucdavis.edu	Mathematics		
 
+## Goal
+Our goal during this project was to learn basics of Optical Character Recognition. We are working on being able to read the images, extract the data using tesseract, and find an optimized way of storing the data. We are programming in R and we hope to be able to use the coordinates of certain words to be able to divide our data, and store little chunks as structs such that each element of the struct corresponds to particular wine. 
+
 ## Challenges
 ### Picture noise reduction
 Tesseract will detect unnecessary and odd symbols if we don't preprocess the image. Thus, we reduced the noise by croping and rotating the image. As a result, we got rid of most noises and extracted accurate text from the picture.
