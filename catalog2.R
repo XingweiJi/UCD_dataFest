@@ -85,3 +85,6 @@ for(i in 2:length(price_bottle$word)-1){
 }
 price_bottle=price_bottle[-array,]
 price_case = text_left[which(text_left$xstart > 3000 & text_left$xend < 3400),]
+
+wine_data = list(name_description = description2, bottle_price = price_bottle$word, case_price = price_case$word)
+wine_dataset = as.data.frame(wine_data)
