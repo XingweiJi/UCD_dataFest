@@ -22,4 +22,7 @@ We isolated prices of wines by x coordinates of a word called "bottle" or "case"
 Some images are tilted. It will make Tesseract harder to extract texts. We use basic geometry to solve this problem. We find a pattern that words "case" and "bottle" are always in the same line. With this in mind, we detect the coordinates of those two words and check if their y coordinates are close. If not, we will use geometric method to calculate the angle and then, we rotate the image using image_rotate from magick.
 
 ## Unsolved 
-### 
+* OCR fails to recognize some texts accurately.
+* Our approach only applies to certain picture with specific pattern.
+* We detect the boundary by key words. It doesn't work if there are no key words in the image.
+* Cropping images is extremely limited with our approach. It has to find those key words in order to function properly.
