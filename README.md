@@ -7,7 +7,8 @@ Zack Liu				zheliu@ucdavis.edu		Statistics
 Xingwei Ji			xwji@ucdavis.edu		Computer Science		
 
 Sukhmandeep Kaur	sdkkaur@ucdavis.edu	Mathematics		
-
+## Purpose
+Extracting text from wine catalog with tesseract and store the data into a data frame in a efficient way
 ## Goal
 Our goal during this project was to learn basics of Optical Character Recognition. We are working on being able to read the images, extract the data using tesseract, and find an optimized way of storing the data. We are programming in R and we hope to be able to use the coordinates of certain words to be able to divide our data, and store little chunks as structs such that each element of the struct corresponds to particular wine. 
 
